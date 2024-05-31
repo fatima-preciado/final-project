@@ -2,7 +2,7 @@
   "name": "final-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fatima-preciado.github.io/Portfolio-CS202",
+  "homepage": "https://fatima-preciado.github.io/final-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
