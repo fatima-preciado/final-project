@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
       <div className="logo">
         {/* transform to other spellings */}
-        <Link to="/">FATIMA</Link>
+        <Link to="/final-project">FATIMA</Link>
       </div>
       
       <nav className="nav">
