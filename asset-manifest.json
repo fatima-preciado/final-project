@@ -1,15 +1,30 @@
 {
   "files": {
-    "main.css": "/final-project/static/css/main.23163d9c.css",
-    "main.js": "/final-project/static/js/main.5b95fd29.js",
+    "main.css": "/final-project/static/css/main.1331a4bd.css",
+    "main.js": "/final-project/static/js/main.16482fca.js",
     "static/js/453.fb67ec70.chunk.js": "/final-project/static/js/453.fb67ec70.chunk.js",
+    "static/media/unifont-15.1.05.otf": "/final-project/static/media/unifont-15.1.05.9e91445dac9736ca7639.otf",
+    "static/media/mamemoji.ttf": "/final-project/static/media/mamemoji.99334c5331249dbcbb0d.ttf",
+    "static/media/Grandelo.ttf": "/final-project/static/media/Grandelo.8ac608efa0e2f488fb04.ttf",
+    "static/media/Nimora.ttf": "/final-project/static/media/Nimora.2be14dd5042644ee38d9.ttf",
+    "static/media/Hynole.ttf": "/final-project/static/media/Hynole.533b0976feb058f11334.ttf",
+    "static/media/Binchotan_Sharp__400__(v_000_526)_.ttf": "/final-project/static/media/Binchotan_Sharp__400__(v_000_526)_.dd4ef0d3ad7dabb25b79.ttf",
+    "static/media/IconBitTwo.ttf": "/final-project/static/media/IconBitTwo.b812500aaa1e7fc52de9.ttf",
+    "static/media/Px437_MBytePC230_EGA[1].ttf": "/final-project/static/media/Px437_MBytePC230_EGA[1].2a39933dbdeb5c334ba4.ttf",
+    "static/media/Starborn.ttf": "/final-project/static/media/Starborn.921086e813b46abea23a.ttf",
+    "static/media/EmojiFont.ttf": "/final-project/static/media/EmojiFont.8575cd0947e5e013517a.ttf",
+    "static/media/CRA_____.TTF": "/final-project/static/media/CRA_____.360082c63d15feac3421.TTF",
+    "static/media/TROGLOP_.ttf": "/final-project/static/media/TROGLOP_.44f10b486ac8e05612c2.ttf",
+    "static/media/BILLO___.TTF": "/final-project/static/media/BILLO___.dfecf41695013d8c075f.TTF",
+    "static/media/dream.ttf": "/final-project/static/media/dream.75e455e7d9dd945997f6.ttf",
+    "static/media/starlight.ttf": "/final-project/static/media/starlight.e32a50129ae63f3d310f.ttf",
     "index.html": "/final-project/index.html",
-    "main.23163d9c.css.map": "/final-project/static/css/main.23163d9c.css.map",
-    "main.5b95fd29.js.map": "/final-project/static/js/main.5b95fd29.js.map",
+    "main.1331a4bd.css.map": "/final-project/static/css/main.1331a4bd.css.map",
+    "main.16482fca.js.map": "/final-project/static/js/main.16482fca.js.map",
     "453.fb67ec70.chunk.js.map": "/final-project/static/js/453.fb67ec70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23163d9c.css",
-    "static/js/main.5b95fd29.js"
+    "static/css/main.1331a4bd.css",
+    "static/js/main.16482fca.js"
   ]
 }
