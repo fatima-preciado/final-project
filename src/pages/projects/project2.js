@@ -46,7 +46,11 @@ function Project2() {
 
           <div className="link">
             <h3> LINK </h3>
-            <a href="https://github.com/MarvNC/CSCI342-Group-2">
+            <a
+              href="https://github.com/MarvNC/CSCI342-Group-2"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <p> GitHub repo </p>{" "}
             </a>

@@ -43,7 +43,13 @@ function Project1() {
 
           <div className="link">
             <h3>LINK</h3>
-            <a href="https://github.com/kaitrice/panic-pal">GitHub repo</a>
+            <a
+              href="https://github.com/kaitrice/panic-pal"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub repo
+            </a>
           </div>
         </div>
       </div>
