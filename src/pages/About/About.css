@@ -1,0 +1,127 @@
+.container-a {
+  background-color: #000;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #e3b0c5;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+a:focus {
+  outline: 0px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.map {
+  padding: 30px 40px 30px 40px;
+  font-family: "mbytepc";
+}
+
+.first {
+  margin-left: 0px !important;
+}
+
+.line {
+  border-left: 1px #cccccc solid !important;
+  margin-left: -1px;
+}
+
+li a {
+  display: inline-block;
+  color: #e3b0c5;
+}
+
+li a:hover {
+  box-shadow: inset 200px 0 0 0 #e3b0c5;
+  color: white;
+}
+
+ul div {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+ul ul {
+  margin: 0.3rem 0px 0.3rem 1.5rem;
+  position: relative;
+}
+
+ul ul div {
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+ul ul ul {
+  margin: 0.3rem 0px 0.3rem 3.5rem;
+  position: relative;
+}
+
+ul ul ul div {
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+ul.map li.page ul li.page::before {
+  content: "";
+  display: inline-block;
+  width: 5rem;
+  height: 1.9rem;
+  border-bottom: 1px #cccccc solid;
+  margin-left: -3.5em;
+  position: absolute;
+  top: -0.9rem;
+}
+
+ul.map li.page ul li.page ul li.page::before {
+  content: "";
+  display: inline-block;
+  width: 5rem;
+  height: 1.9rem;
+  border-bottom: 1px #cccccc red;
+  margin-left: -3.5em;
+  position: absolute;
+  top: -0.9rem;
+}
+
+span.star {
+  font-family: "emoji";
+  font-size: 24px;
+}
+
+h3.page {
+  font-family: "mbytepc";
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #e3b0c5;
+}
+
+li.page p.page {
+  font-family: "mbytepc";
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+li.page p.caption {
+  font-weight: normal;
+  font-family: "mbytepc";
+  font-size: 20px;
+  margin-top: 0px;
+}

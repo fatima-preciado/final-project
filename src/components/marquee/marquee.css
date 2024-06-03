@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  font-size: 5.4em;
+  background-color: #000000;
+  text-align: center;
+}
+
+.hr-margin {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+marquee {
+  color: white;
+  font-family: "starlight";
+  font-weight: 100;
+  font-style: italic;
+  display: block;
+  letter-spacing: 0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+
+marquee:hover {
+  text-shadow: 8px 8px #e3b0c5, 20px 20px #000000;
+}

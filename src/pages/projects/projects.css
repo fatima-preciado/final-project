@@ -1,115 +1,263 @@
-/* projects.css */
-
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 h1 {
-    font-size: 9.2rem;
-    font-weight: 100;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 1rem;
-    margin-top: 10rem;
-	letter-spacing:0.1em;
+  margin-bottom: 0;
+  margin-top: 100px;
+  font-size: 9.2rem;
+  font-weight: 100;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: "starlight";
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
-  text-shadow: 
-						8px 8px #E3B0C5,
-						20px 20px #000000;
+}
+
+h1:hover {
+  font-size: 9.2rem;
+  font-weight: 100;
+  font-style: italic;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 8px 8px #e3b0c5, 20px 20px #000000;
 }
 
 .container-p {
-    display: grid;
-    grid-template-columns: 1.1fr 1.1fr 1.1fr;
-    grid-auto-flow: row;
-    grid-template-areas:
-        ". . ."
-        "column column column"
-        "demo demo demo";
+  display: grid;
+  grid-template-columns: 1.1fr 1.1fr 1.1fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    "column column column"
+    ". . .";
 }
 
 .column {
-    display: grid;
-    grid-template-columns: 2.2fr 0.6fr 0.6fr 0.6fr;
-    grid-auto-flow: row;
-    grid-template-areas:
-        ". . . ."
-        "disc role respons link"
-        ". . . .";
-    grid-area: column;
+  display: grid;
+  grid-template-columns: 2.2fr 0.6fr 0.6fr 0.6fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . ."
+    "disc role respons link"
+    ". . . .";
+  grid-area: column;
 }
 
 .disc {
-    grid-area: disc;
-   
+  grid-area: disc;
+  font-weight: 100;
 
-    p {
-        font-size: 1.7rem;
-     }
+  p {
+    font-size: 1.7rem;
+  }
 }
 
 .role {
-    padding-left: 2rem;
-    grid-area: role;
+  padding-left: 2rem;
+  grid-area: role;
+
+  h3 {
+    font-weight: 150;
+    font-size: 1.5rem;
+    text-decoration: underline solid #e3b0c5 3px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-weight: 100;
     font-size: 1.1rem;
-
-    h3 {
-        text-decoration: underline;
-        margin-bottom: 0;
-    }
-
-    p {
-        margin-top: 0.5rem;
-    }
+    margin-top: 1.1rem;
+  }
 }
 
 .respons {
-    grid-area: respons;
+  grid-area: respons;
+
+  h3 {
+    font-weight: 150;
+    font-size: 1.5rem;
+    text-decoration: underline solid #e3b0c5 3px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-weight: 100;
     font-size: 1.1rem;
-
-    h3 {
-        text-decoration: underline;
-        margin-bottom: 0;
-    }
-
-    p {
-        margin-top: 0.5rem;
-    }
+    margin-top: 1.1rem;
+  }
 }
 
 .link {
-    padding-left: 2rem;
-    grid-area: link;
+  padding-left: 2rem;
+  grid-area: link;
+
+  h3 {
+    font-weight: 150;
+    font-size: 1.5rem;
+    text-decoration: underline solid #e3b0c5 3px;
+    margin-bottom: 0;
+  }
+
+  a {
     font-size: 1.1rem;
+    font-weight: 100;
+    color: #e3b0c5;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
 
-    h3 {
-        text-decoration: underline;
-        margin-bottom: 0;
-    }
+  a:hover {
+    text-transform: lowercase;
+    font-style: italic;
+  }
+}
 
-    a {
-        margin-top: 0.5rem;
-        color: #E3B0C5;
-        text-decoration: none;
-        text-transform: lowercase;
-    }
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
-    a:hover {
-        text-transform: lowercase;
-        font-style: italic;
+.features {
+  color: #000;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
-    }
+.features h3 {
+  cursor: pointer;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding-left: 60px;
+}
+
+.features p {
+  padding-left: 60px;
+  font-size: 1.1rem;
+  margin-right: 110px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .demo {
-    grid-area: demo;
-    color: #000;
-    text-align: center;
-    padding: 20px;
-    background-color: #f9f9f9;
-    margin-top: 20px;
+  flex: 1;
+  color: #000;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  width: 100%;
+  height: 100px;
+  padding-right: 60px;
+  overflow: auto;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: 10px solid #e3b0c5;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.Futures {
+  display: grid;
+  grid-template-columns: 0.6fr 0.6fr 0.6fr 0.6fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . ."
+    "notifs promt interventions dark-mode"
+    ". . . .";
+  grid-area: column;
+}
+
+.notifs {
+  grid-area: notifs;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  h3 {
+    font-weight: 150;
+    font-size: 1.5rem;
+    text-decoration: underline solid #e3b0c5 3px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-top: 0;
+  }
+}
+
+.promt {
+  grid-area: promt;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  h3 {
+    font-weight: 150;
+    font-size: 1.5rem;
+    text-decoration: underline solid #e3b0c5 3px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-top: 0;
+  }
+}
+
+.interventions {
+  grid-area: interventions;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  h3 {
+    font-weight: 150;
+    font-size: 1.5rem;
+    text-decoration: underline solid #e3b0c5 3px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-top: 0;
+  }
+}
+
+.dark-mode {
+  grid-area: dark-mode;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  h3 {
+    font-weight: 150;
+    font-size: 1.5rem;
+    text-decoration: underline solid #e3b0c5 3px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-top: 0;
+  }
 }

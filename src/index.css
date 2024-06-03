@@ -1,16 +1,109 @@
+/* Set default styles for html and body */
+html,
 body {
-  background-color: #000000;
-  color: #fff;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Apply border-box sizing model to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #000;
+  line-height: 1.5;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Crystopia";
+  src: local("Crystopia"), url("./fonts/CRA_____.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Unifont";
+  src: local("Unifont"), url("./fonts/unifont-15.1.05.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "troglodytepop";
+  src: local("troglodytepop"), url("./fonts/TROGLOP_.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "mbytepc";
+  src: local("mbytepc"),
+    url("./fonts/Px437_MBytePC230_EGA[1].ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hynole";
+  src: local("Hynole"), url("./fonts/Hynole.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nimora";
+  src: local("Nimora"), url("./fonts/Nimora.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Binchotan";
+  src: local("Binchotan"),
+    url("./fonts/Binchotan_Sharp__400__\(v_000_526\)_.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "billo";
+  src: local("billo"), url("./fonts/BILLO___.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "grandelo";
+  src: local("grandelo"), url("./fonts/Grandelo.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "mamemoji";
+  src: local("mamemoji"), url("./fonts/mamemoji.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "starborn";
+  src: local("starborn"), url("./fonts/Starborn.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "starlight";
+  src: local("starlight"), url("./fonts/starlight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iconbit2";
+  src: local("iconbit2"), url("./fonts/IconBitTwo.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "emoji";
+  src: local("emoji"), url("./fonts/EmojiFont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "dreams";
+  src: local("dreams"), url("./fonts/dream.ttf") format("truetype");
 }

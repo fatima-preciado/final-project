@@ -1,18 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './header.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./header.css";
 
 function Header() {
   return (
     <header className="header">
       <div className="logo">
-        {/* transform to other spellings */}
-        <Link to="/final-project">FATIMA</Link>
+        <Link to="/final-project">Fatima</Link>
       </div>
-      
       <nav className="nav">
         <ul>
-          <li><Link to="/about">+</Link></li>
+          <li>
+            <Link to="/about">+</Link>
+          </li>
         </ul>
       </nav>
     </header>
