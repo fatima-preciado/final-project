@@ -1,19 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./marquee.css";
+import projectsData from "../../pages/project/data.json";
 
 function Marquee() {
+  const emojis = ["♡", "◁", "◇", "→"];
   return (
     <div className="container">
       <hr className="hr-margin" />
-      <Link to="/project1">
-        <marquee> PANIC PAL</marquee>
+      <Link to="/about">
+        <marquee> ABOUT ME ← ABOUT ME</marquee>
       </Link>
-      <hr className="hr-margin" />
-      <Link to="/project2">
-        <marquee>SHELF LIFE</marquee>
-      </Link>
-      <hr className="hr-margin" />
+
+      {projectsData.map((project, index) => (
+        <React.Fragment key={index}>
+          <hr className="hr-margin" />
+          <Link to={`/projects/${index}`}>
+            <marquee>
+              {project.title.toUpperCase()} {emojis[index % emojis.length]}{" "}
+              {project.title.toUpperCase()}
+            </marquee>
+          </Link>
+        </React.Fragment>
+      ))}
     </div>
   );
 }

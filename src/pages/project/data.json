@@ -1,0 +1,318 @@
+[
+    {
+      "title": "Panic Pal",
+      "description": "Panic Pal is a React Native application with ChatGPT integration. The app is designed to assist individuals in managing & coping with panic attacks, which are intense episodes of fear & anxiety that can lead to symptoms such as shortness of breath, palpitations, & a sense of doom or loss of control. These episodes can significantly impact social interactions, relationships, & overall quality of life.",
+      "role": "Front & Backend",
+      "responsibilities": " Developed a journal feature for users to log their experiences & track their progress. Created a contact page to facilitate communication & support for users. Designed & implemented a user-friendly & intuitive login page for a seamless user experience.",
+      "link": "https://github.com/kaitrice/panic-pal",
+      "features": [
+        {
+          "title": "Technologies Used",
+          "content": "React-Native, ChatGPT API, Expo Go, Firebase: Real-time database, Firebase: Authentication, Azure"
+        },
+        {
+          "title": "Login",
+          "content": "Our app begins with a clean & secure interface that invites users to enter their credentials, with the backend processes powered by Firebase. This choice was made for robust security & efficient data management. Firebase’s authentication system is designed to handle user information securely, providing reliable sign-in & sign-up options using email/password. On the login screen, users with an account can either sign in or recover a forgotten password. For new users, they have the option to create an account."
+        },
+        {
+          "title": "Chat",
+          "content": "Users can quickly access intervention techniques via prompt buttons—these are dynamically retrieved from asynchronous storage, ensuring a personalized & responsive support system. The app also conscientiously records the chat history within the asynchronous storage for user privacy while summarizing session data to Firebase, balancing data security & enhancing the AI model’s learning capabilities for future interactions. Our app stores OpenAI’s API key in Azure storage for security."
+        },
+        {
+            "title": "Breathing",
+            "content": "The central feature is a prominent circle that serves as a visual guide for breathing, with prompts above encouraging engagement. Below the circle are adjustable sliders labeled ‘inhale’ & ‘exhale,’ allowing users to customize the duration of each breath. In case a user would like to come back to their determined breathing exercise, the time information is stored in asynchronous storage for timing, enhancing the personalized experience."
+          },
+          {
+            "title": "Phone",
+            "content": "The app’s phone feature serves as a resource for users in need of immediate human interaction during distressing situations. The ‘Show Hotlines’ button leads to a list of available emergency numbers or mental health support services. Below, there’s a section labeled ‘Contacts,’ with the user’s permission, the app can access & display user contacts to facilitate quick communication with trusted individuals. The ‘Call’ or ‘Text’ buttons streamline the process of reaching out for help."
+          },
+          {
+            "title": "Calendar",
+            "content": "This page provides users with a structured & interactive way to track their thoughts & experiences. The top portion displays a weekly calendar view, allowing users to select a day. Below the calendar, there is a ‘Daily Journal’ section with a text input area & a ‘Save Entry’ button, allowing users can record their thoughts or feelings. Any entry on a given day is then listed under ‘Journal Entries’ along with a timestamp, offering a chronological overview of past entries. Users can choose to remove entries if desired. Using the calendar feature located at the top users may view entries from other days or weeks. The app utilizes asynchronous storage to save these entries, ensuring they are stored locally on the user’s device for privacy & quick access."
+          },
+          {
+            "title": "Settings",
+            "content": "The settings page provides a straightforward interface for users to manage their experience. The ‘Interventions’ section lists various coping strategies saved in the asynchronous storage, ensuring that personal settings are securely stored & easily retrievable for each session. The ‘Dark Mode’ toggle is present but disabled as the app currently adheres to the system’s default settings. Additionally, a user may choose to ‘Sign out’ & ‘Delete Account,’ giving users control over their account management within Firebase."
+          }
+      ],
+      "videoUrl": "https://www.youtube.com/embed/Ueqlpl4Sl4U?si=xQjWt_ARl0Z1cjvf",
+      "futurePlans": [
+        {
+          "title": "Push Notifications",
+          "content": "Implementation of push notifications to provide timely reminders & encourage consistent engagement with therapeutic activities."
+        },
+        {
+          "title": "Prompt Buttons",
+          "content": "Leveraging our use of ChatGPT & chat summaries to provide better prompts for users."
+        },
+        {
+          "title": "Interventions",
+          "content": "Allowing users to update interventions they find helps the most to get fast intervention for a rapidly approaching panic attack."
+        },
+        {
+            "title": "Dark Mode",
+            "content": "Introducing a switch for Dark Mode, offering users the option to manually toggle this feature independent of system settings."
+          }
+      ]
+    },
+    {
+      "title": "SHELF LIFE",
+      "description": "ShelfLife is a game review website built with gamers in mind. With so many games & so many platforms, getting fast, relevant information, & curated reviews by trusted fellow gamers is important in influencing future purchases. Users are able to see up to date information on their favorite games, & find new ones that may interest them. They will also get relevant reviews for each game, published by other users of the application to help influence their purchasing decisions. Once a user creates an account, they will be able to post their own reviews for games, making their voice heard by the growing community on ShelfLife!",
+      "role": "Design & Frontend",
+      "responsibilities": " Designed & Developed various pages & components. Designed the individual game page, games page, user profile, multiple versions of the review component, & the initial game card in Figma. Developed the individual game page, review component, popup button functionality, & the average reviews histogram.",
+      "link": "https://github.com/MarvNC/CSCI342-Group-2",
+      "features": [
+        {
+          "title": "Technologies Used",
+          "content": "JavaScript, MongoDB, Express JS, React, NodeJS, Vite, Tailwind CSS, Figma, Notion, Discord, GitHub."
+        },
+        {
+          "title": "Games Page",
+          "content": "Displays dynamically generated lists of games based on categories (trending, top all time, recent). Each game card links to the corresponding game page."
+        },
+        {
+          "title": "Game Page",
+          "content": "Dynamically generated pages showcasing different game stats & user reviews, with a modal for creating a review."
+        },
+        {
+          "title": "Login/Registration Pages",
+          "content": "Uses Zod for schema validation & store user information in MongoDB."
+        },
+        {
+          "title": "User Page",
+          "content": "Shows a list of favorites, recently played games, & user-submitted reviews."
+        },
+        {
+          "title": "Database Hosting",
+          "content": "Can be hosted locally or online with MongoDB Atlas."
+        }
+      ],
+      "videoUrl": "https://www.youtube.com/embed/nTF0QLlImP0?si=EbYRW7dQEgSiTLvG",
+      "futurePlans": [
+        {
+          "title": "User Game Lists",
+          "content": "Allow users to store & persist lists of games they are playing."
+        },
+        {
+          "title": "Likes & Comments",
+          "content": "Enable adding likes & comments to reviews."
+        },
+        {
+            "title": "Certified Reviewers",
+            "content": "Create a section for certified reviewers."
+          },
+          {
+            "title": "Follow Reviewers",
+            "content": "Give users the ability to follow other reviewers"
+          }
+      ]
+    },
+    {
+        "title": "project one",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque dignissim enim sit amet venenatis urna. In hendrerit gravida rutrum quisque non tellus. Augue ut lectus arcu bibendum at varius vel pharetra. Facilisis volutpat est velit egestas dui id ornare arcu odio. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Duis ultricies lacus sed turpis.",
+        "role": "Design & Frontend",
+        "responsibilities": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Elit pellentesque habitant morbi tristique senectus et.",
+        "link": "https://github.com/fatima-preciado",
+        "features": [
+          {
+            "title": "Technologies Used",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+          },
+          {
+            "title": "Feature 1",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+          },
+          {
+            "title": "Feature 2",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+          },
+          {
+            "title": "Feature 3",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+          },
+          {
+            "title": "Feature 4",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+          },
+          {
+            "title": "Feature 5",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/YOUTUBE",
+        "futurePlans": [
+          {
+            "title": "Future Plane 1",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+          },
+          {
+            "title": "Future Plane 2",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+          },
+          {
+              "title": "Future Plane 3",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            },
+            {
+              "title": "Future Plane 4",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            }
+        ]
+      },
+      {
+          "title": "project two",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque dignissim enim sit amet venenatis urna. In hendrerit gravida rutrum quisque non tellus. Augue ut lectus arcu bibendum at varius vel pharetra. Facilisis volutpat est velit egestas dui id ornare arcu odio. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Duis ultricies lacus sed turpis.",
+          "role": "Design & Frontend",
+          "responsibilities": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Elit pellentesque habitant morbi tristique senectus et.",
+          "link": "https://github.com/fatima-preciado",
+          "features": [
+            {
+              "title": "Technologies Used",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            },
+            {
+              "title": "Feature 1",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            },
+            {
+              "title": "Feature 2",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            },
+            {
+              "title": "Feature 3",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            },
+            {
+              "title": "Feature 4",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            },
+            {
+              "title": "Feature 5",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            }
+          ],
+          "videoUrl": "https://www.youtube.com/embed/YOUTUBE",
+          "futurePlans": [
+            {
+              "title": "Future Plane 1",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            },
+            {
+              "title": "Future Plane 2",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+            },
+            {
+                "title": "Future Plane 3",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              },
+              {
+                "title": "Future Plane 4",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              }
+          ]
+        },
+        {
+            "title": "project three",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque dignissim enim sit amet venenatis urna. In hendrerit gravida rutrum quisque non tellus. Augue ut lectus arcu bibendum at varius vel pharetra. Facilisis volutpat est velit egestas dui id ornare arcu odio. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Duis ultricies lacus sed turpis.",
+            "role": "Design & Frontend",
+            "responsibilities": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Elit pellentesque habitant morbi tristique senectus et.",
+            "link": "https://github.com/fatima-preciado",
+            "features": [
+              {
+                "title": "Technologies Used",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              },
+              {
+                "title": "Feature 1",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              },
+              {
+                "title": "Feature 2",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              },
+              {
+                "title": "Feature 3",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              },
+              {
+                "title": "Feature 4",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              },
+              {
+                "title": "Feature 5",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              }
+            ],
+            "videoUrl": "https://www.youtube.com/embed/YOUTUBE",
+            "futurePlans": [
+              {
+                "title": "Future Plane 1",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              },
+              {
+                "title": "Future Plane 2",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+              },
+              {
+                  "title": "Future Plane 3",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                },
+                {
+                  "title": "Future Plane 4",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                }
+            ]
+          },
+          {
+              "title": "project four",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque dignissim enim sit amet venenatis urna. In hendrerit gravida rutrum quisque non tellus. Augue ut lectus arcu bibendum at varius vel pharetra. Facilisis volutpat est velit egestas dui id ornare arcu odio. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Duis ultricies lacus sed turpis.",
+              "role": "Design & Frontend",
+              "responsibilities": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Elit pellentesque habitant morbi tristique senectus et.",
+              "link": "https://github.com/fatima-preciado",
+              "features": [
+                {
+                  "title": "Technologies Used",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                },
+                {
+                  "title": "Feature 1",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                },
+                {
+                  "title": "Feature 2",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                },
+                {
+                  "title": "Feature 3",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                },
+                {
+                  "title": "Feature 4",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                },
+                {
+                  "title": "Feature 5",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                }
+              ],
+              "videoUrl": "https://www.youtube.com/embed/YOUTUBE",
+              "futurePlans": [
+                {
+                  "title": "Future Plane 1",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                },
+                {
+                  "title": "Future Plane 2",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                },
+                {
+                    "title": "Future Plane 3",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                  },
+                  {
+                    "title": "Future Plane 4",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper."
+                  }
+              ]
+            }
+    ]

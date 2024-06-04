@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./About.css";
+import "./about.css";
 
 function About() {
   return (
@@ -116,7 +116,6 @@ function About() {
               </ul>
             </li>
           </ul>
-
           <div>
             <h3 className="page">
               {" "}
@@ -146,7 +145,6 @@ function About() {
                   </div>
                 </li>
               </ul>
-
               <ul>
                 <li className="page">
                   <div>
@@ -173,6 +171,41 @@ function About() {
                     <p className="caption">
                       LATEX, RESTful APIs, Unit Testing, Git{" "}
                     </p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div>
+            <h3 className="page">
+              {" "}
+              <span className="star">G</span> contact
+            </h3>
+          </div>
+          <ul>
+            <li className="page line">
+              <ul>
+                <li className="page">
+                  <div>
+                    <p className="page"><a href="mailto:preciaf@wwu.edu" target="_blank" rel="noreferrer"> Email </a></p>
+                    <p className="caption"> 
+                     </p>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li className="page">
+                  <div>
+                    <p className="page"><a href="https://github.com/fatima-preciado" target="_blank" rel="noreferrer">GitHub </a> </p>
+                    <p className="caption"> </p>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li className="page">
+                  <div>
+                    <p className="page"><a href="https://www.linkedin.com/in/fatima-preciado/" target="_blank" rel="noreferrer">LinkedIn </a> </p>
+                    <p className="caption"> </p>
                   </div>
                 </li>
               </ul>

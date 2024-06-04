@@ -1,0 +1,47 @@
+.project-navigation {
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+}
+
+.navigation-arrows {
+  display: flex;
+  font-size: 5.4em;
+}
+
+.hr-margin {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-arrows a {
+  display: inline-block;
+  padding: 0 20px;
+  margin: 0;
+  color: white;
+  font-family: "starlight";
+  font-weight: 100;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  cursor: pointer;
+}
+
+.navigation-arrows a:hover {
+  text-shadow: 8px 8px #e3b0c5, 20px 20px #000000;
+}
+
+.navigation-arrows a.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}
