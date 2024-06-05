@@ -87,7 +87,7 @@ function About() {
                 <li className="page">
                   <div>
                     <p className="page">01.2024 - 03.2024</p>
-                    <Link to="/project2">
+                    <Link to="/projects/1">
                       <p className="page"> shelf life </p>
                     </Link>
                     <p className="caption">
@@ -103,7 +103,7 @@ function About() {
                 <li className="page">
                   <div>
                     <p className="page">09.2023 - 12.2023</p>
-                    <Link to="/project1">
+                    <Link to="/projects/0">
                       <p className="page"> panic pal </p>
                     </Link>
                     <p className="caption">

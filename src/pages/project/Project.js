@@ -41,7 +41,7 @@ const Project = ({ project, totalProjects, currentProjectIndex }) => {
           <div className="link">
             <h3>LINK</h3>
             <a href={project.link} target="_blank" rel="noreferrer">
-              Project Link
+              GitHub Link
             </a>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Project = ({ project, totalProjects, currentProjectIndex }) => {
           textTransform: "uppercase",
         }}
       >
-        Future Plans
+        Future
       </h2>
       <div className="Futures">
         {project.futurePlans.map((plan) => (
@@ -123,7 +123,7 @@ const Project = ({ project, totalProjects, currentProjectIndex }) => {
           </div>
 
           <div className="middle">
-            <Link to="/">↑</Link>
+            <Link to="/final-project">↑</Link>
           </div>
 
           <div className="right">
