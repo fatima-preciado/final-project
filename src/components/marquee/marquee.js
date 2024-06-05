@@ -10,7 +10,7 @@ function Marquee() {
   return (
     <div className="container">
       <hr className="hr-margin" />
-      {location.pathname === "/final-project" && (
+      {location.pathname === "/final-project/" && (
         <Link to="/about">
           <marquee> ABOUT ME ← ABOUT ME</marquee>
         </Link>

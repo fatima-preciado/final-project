@@ -123,7 +123,7 @@ const Project = ({ project, totalProjects, currentProjectIndex }) => {
           </div>
 
           <div className="middle">
-            <Link to="/final-project">↑</Link>
+            <Link to="/final-project/">↑</Link>
           </div>
 
           <div className="right">
